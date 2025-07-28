@@ -1,26 +1,99 @@
-
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Anipong 공지</title>
+  <title>dotTreeSoft</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin: 0; font-family: sans-serif; scroll-behavior: smooth; }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+      color: white;
+    }
+
+    nav img {
+      height: 40px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    #company {
+      background-color: #cceeff;
+    }
+
+    #product {
+      background-color: #ffffff;
+    }
+
+    #contact {
+      background-color: #cc5500;
+      color: white;
+    }
+
+    .product-frame {
+      display: inline-block;
+      margin-top: 20px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .product-frame img {
+      width: 100px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .product-frame span {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
 </head>
-<body style="text-align: center; font-family: sans-serif;">
+<body>
 
-  <h1>Anipong 업데이트를 위해 잠시 판매를 중지합니다.</h1>
-  <h1>Anipong is temporarily unavailable due to an update.</h1>
-  <h1>アップデートのため、Anipongの販売を一時停止します。</h1>
-  <h1>因更新维护，Anipong 暂停销售。</h1>
+  <nav>
+    <img src="dottree_w_logo.png" alt="dotTreeSoft Logo">
+    <div>
+      <a href="#home">Home</a>
+      <a href="#company">Company</a>
+      <a href="#product">Product</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-  <br><br>
+  <section id="company">
+    <h1>Company</h1>
+    <p>dotTreeSoft strives to deliver new experiences to users through diverse software development. We offer not only App Store and Android app development but also various services via the web. We are committed to continuous innovation to stay connected with our users.</p>
+  </section>
 
-  <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="background_image.png" alt="AniPong Main" style="width: 300px; max-width: 90%; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
-  </div>
+  <section id="product">
+    <h1>Product</h1>
+    <a href="./anipong/index.html" class="product-frame">
+      <img src="background_image.png" alt="Anipong Thumbnail">
+      <span>Anipong</span>
+    </a>
+  </section>
 
-  <br><br>
-  <a href="anipong-privacy-policy" style="font-size: 18px; color: #007acc;">개인정보 처리방침 보기</a>
+  <section id="contact">
+    <h1>Contact</h1>
+    <p>If you have any inquiries, please contact us at contact@dottreesoft.com</p>
+  </section>
 
 </body>
 </html>
