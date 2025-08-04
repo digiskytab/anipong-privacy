@@ -46,12 +46,21 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
 
-    .privacy-button {
-      margin-top: 30px;
+    .notice-button {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #007acc;
-      color: white;
+      margin-right: 15px; /* Notice 버튼에만 오른쪽 마진 */
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .privacy-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
       text-decoration: none;
       border-radius: 5px;
     }
@@ -90,7 +99,7 @@
       <img src="image13.png" alt="screenshot 12">
       <img src="image14.png" alt="screenshot 13">
     </div>
-
+    <a class="notice-button" href="./notice/index.html">Notice</a>
     <a class="privacy-button" href="./privacy-policy/index.html">Privacy Policy</a>
   </section>
 
