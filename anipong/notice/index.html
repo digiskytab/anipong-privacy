@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +15,7 @@
     }
 
     h1 {
-      font-size: 24px;
+      font-size: 22px;
       margin-bottom: 30px;
       color: #333;
     }
@@ -23,22 +24,28 @@
       margin-top: 20px;
     }
 
-    .store-badges img {
+    .store-button img {
       width: 160px;
       margin: 10px;
-      cursor: pointer;
+    }
+
+    .store-button.disabled {
+      pointer-events: none;
+      opacity: 0.5;
+      filter: grayscale(100%);
+      cursor: not-allowed;
     }
   </style>
 </head>
 <body>
-  <h1>Anipong has been upgraded to version 1.1.0 and re-released!<br />Visit the store to download now.</h1>
+  <h1>Anipong has been upgraded to version 1.1.0 and is scheduled for re-release.<br />Once released, please visit the store to download.</h1>
 
   <div class="store-badges">
-    <a href="https://apps.apple.com/app/id6748384896" target="_blank">
-      <img src="App_Store_Badge_US_blk.svg" alt="Download on the App Store" />
+    <a class="store-button disabled" href="#" onclick="return false;">
+      <img src="App_Store_Badge_US_blk.svg" alt="App Store" />
     </a>
-    <a href="https://play.google.com/store/apps/details?id=com.dottreesoft.anipong" target="_blank">
-      <img src="GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" />
+    <a class="store-button disabled" href="#" onclick="return false;">
+      <img src="GetItOnGooglePlay_Badge_Web_color_English.png" alt="Google Play" />
     </a>
   </div>
 </body>
