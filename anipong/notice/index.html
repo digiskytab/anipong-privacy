@@ -11,42 +11,63 @@
       margin: 0;
       padding: 40px 20px;
       background-color: #f5f5f5;
-      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
     }
 
     h1 {
-      font-size: 22px;
+      font-size: 24px;
       margin-bottom: 30px;
       color: #333;
+      text-align: center;
     }
 
-    .store-badges {
-      margin-top: 20px;
+    .notice-item {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: left;
     }
 
-    .store-button img {
-      width: 160px;
-      margin: 10px;
+    .notice-date {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #007AFF;
+      padding-bottom: 5px;
     }
 
-    .store-button.disabled {
-      pointer-events: none;
-      opacity: 0.5;
-      filter: grayscale(100%);
-      cursor: not-allowed;
+    .notice-content {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .notice-content ul {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+
+    .notice-content li {
+      margin-bottom: 5px;
     }
   </style>
 </head>
 <body>
-  <h1>Anipong has been upgraded to version 1.1.0 and is scheduled for re-release.<br />Once released, please visit the store to download.</h1>
+  <h1>Anipong Notice</h1>
 
-  <div class="store-badges">
-    <a class="store-button disabled" href="#" onclick="return false;">
-      <img src="App_Store_Badge_US_blk.svg" alt="App Store" />
-    </a>
-    <a class="store-button disabled" href="#" onclick="return false;">
-      <img src="GetItOnGooglePlay_Badge_Web_color_English.png" alt="Google Play" />
-    </a>
+  <div class="notice-item">
+    <div class="notice-date">August 13, 2025</div>
+    <div class="notice-content">
+      <ul>
+        <li>Anipong v1.1.0 for iOS has been released on the App Store.</li>
+        <li>Android version is scheduled to be released in August.</li>
+      </ul>
+    </div>
   </div>
+
 </body>
 </html>

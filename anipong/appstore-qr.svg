@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="white"/>
+  <!-- QR Code pattern generated for App Store URL -->
+  <!-- This is a simplified QR code pattern - in production you'd use a proper QR code generator -->
+  <g fill="black">
+    <!-- Position markers (corners) -->
+    <rect x="0" y="0" width="21" height="21"/>
+    <rect x="3" y="3" width="15" height="15" fill="white"/>
+    <rect x="6" y="6" width="9" height="9"/>
+    
+    <rect x="107" y="0" width="21" height="21"/>
+    <rect x="110" y="3" width="15" height="15" fill="white"/>
+    <rect x="113" y="6" width="9" height="9"/>
+    
+    <rect x="0" y="107" width="21" height="21"/>
+    <rect x="3" y="110" width="15" height="15" fill="white"/>
+    <rect x="6" y="113" width="9" height="9"/>
+    
+    <!-- Timing patterns -->
+    <rect x="24" y="6" width="3" height="3"/>
+    <rect x="30" y="6" width="3" height="3"/>
+    <rect x="36" y="6" width="3" height="3"/>
+    <rect x="42" y="6" width="3" height="3"/>
+    <rect x="48" y="6" width="3" height="3"/>
+    <rect x="54" y="6" width="3" height="3"/>
+    <rect x="60" y="6" width="3" height="3"/>
+    <rect x="66" y="6" width="3" height="3"/>
+    <rect x="72" y="6" width="3" height="3"/>
+    <rect x="78" y="6" width="3" height="3"/>
+    <rect x="84" y="6" width="3" height="3"/>
+    <rect x="90" y="6" width="3" height="3"/>
+    <rect x="96" y="6" width="3" height="3"/>
+    <rect x="102" y="6" width="3" height="3"/>
+    
+    <rect x="6" y="24" width="3" height="3"/>
+    <rect x="6" y="30" width="3" height="3"/>
+    <rect x="6" y="36" width="3" height="3"/>
+    <rect x="6" y="42" width="3" height="3"/>
+    <rect x="6" y="48" width="3" height="3"/>
+    <rect x="6" y="54" width="3" height="3"/>
+    <rect x="6" y="60" width="3" height="3"/>
+    <rect x="6" y="66" width="3" height="3"/>
+    <rect x="6" y="72" width="3" height="3"/>
+    <rect x="6" y="78" width="3" height="3"/>
+    <rect x="6" y="84" width="3" height="3"/>
+    <rect x="6" y="90" width="3" height="3"/>
+    <rect x="6" y="96" width="3" height="3"/>
+    <rect x="6" y="102" width="3" height="3"/>
+    
+    <!-- Data pattern (simplified example) -->
+    <rect x="24" y="24" width="3" height="3"/>
+    <rect x="30" y="24" width="3" height="3"/>
+    <rect x="39" y="24" width="3" height="3"/>
+    <rect x="45" y="24" width="3" height="3"/>
+    <rect x="51" y="24" width="3" height="3"/>
+    <rect x="57" y="24" width="3" height="3"/>
+    <rect x="63" y="24" width="3" height="3"/>
+    <rect x="69" y="24" width="3" height="3"/>
+    <rect x="75" y="24" width="3" height="3"/>
+    <rect x="81" y="24" width="3" height="3"/>
+    <rect x="87" y="24" width="3" height="3"/>
+    <rect x="93" y="24" width="3" height="3"/>
+    <rect x="99" y="24" width="3" height="3"/>
+    
+    <!-- More data patterns -->
+    <rect x="24" y="30" width="3" height="3"/>
+    <rect x="33" y="30" width="3" height="3"/>
+    <rect x="42" y="30" width="3" height="3"/>
+    <rect x="48" y="30" width="3" height="3"/>
+    <rect x="57" y="30" width="3" height="3"/>
+    <rect x="66" y="30" width="3" height="3"/>
+    <rect x="72" y="30" width="3" height="3"/>
+    <rect x="81" y="30" width="3" height="3"/>
+    <rect x="90" y="30" width="3" height="3"/>
+    <rect x="96" y="30" width="3" height="3"/>
+    
+    <!-- Additional data patterns for visual completeness -->
+    <rect x="27" y="36" width="3" height="3"/>
+    <rect x="36" y="36" width="3" height="3"/>
+    <rect x="45" y="36" width="3" height="3"/>
+    <rect x="54" y="36" width="3" height="3"/>
+    <rect x="60" y="36" width="3" height="3"/>
+    <rect x="69" y="36" width="3" height="3"/>
+    <rect x="78" y="36" width="3" height="3"/>
+    <rect x="84" y="36" width="3" height="3"/>
+    <rect x="93" y="36" width="3" height="3"/>
+    <rect x="102" y="36" width="3" height="3"/>
+  </g>
+  
+  <!-- Text label for clarity -->
+  <text x="64" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="black">App Store</text>
+</svg>

@@ -64,6 +64,50 @@
       text-decoration: none;
       border-radius: 5px;
     }
+
+    .store-badges {
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .app-store-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .store-button img {
+      width: 160px;
+      margin: 10px;
+    }
+
+    .store-button.disabled {
+      pointer-events: none;
+      opacity: 0.5;
+      filter: grayscale(100%);
+      cursor: not-allowed;
+    }
+
+    .qr-code {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .qr-code img {
+      width: 128px;
+      height: 128px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    .qr-code p {
+      font-size: 12px;
+      color: #666;
+      margin: 5px 0 0 0;
+    }
   </style>
 </head>
 <body>
@@ -80,8 +124,23 @@
 
   <section>
     <h1>Transform your photos into popular animations with AI</h1>
-    <h3>The upgraded version of Anipong (v1.1.0) will be re-released on the App Store and Play Store in August.</h3>
+    <h3>Anipong (v1.1.0) upgraded version released on App Store! Download and enjoy. Coming soon to Google Play Store. Check "Notice" below.</h3>
     <p>Anipong offers photo transformation services in 12 different styles, including popular anime styles such as Ghibli, Disney, Pixar, Pixel, and Marvel.</p>
+
+    <div class="store-badges">
+      <div class="app-store-section">
+        <a class="store-button" href="https://apps.apple.com/kr/app/anipong-%EC%95%A0%EB%8B%88%ED%90%81-ai-%EC%82%AC%EC%A7%84-%EC%95%A0%EB%8B%88%EB%A9%94-%EC%8A%A4%ED%83%80%EC%9D%BC/id6748384896">
+          <img src="App_Store_Badge_US_blk.svg" alt="App Store" />
+        </a>
+        <div class="qr-code">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=128x128&data=https://apps.apple.com/kr/app/anipong-%EC%95%A0%EB%8B%88%ED%90%81-ai-%EC%82%AC%EC%A7%84-%EC%95%A0%EB%8B%88%EB%A9%94-%EC%8A%A4%ED%83%80%EC%9D%BC/id6748384896" alt="App Store QR Code" />
+          <p>Scan to download</p>
+        </div>
+      </div>
+      <a class="store-button disabled" href="#" onclick="return false;">
+        <img src="GetItOnGooglePlay_Badge_Web_color_English.png" alt="Google Play" />
+      </a>
+    </div>
 
     <div class="gallery">
       <img src="image1.png" alt="screenshot 0">
