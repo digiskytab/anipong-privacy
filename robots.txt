@@ -1,13 +1,15 @@
 User-agent: *
 Allow: /
 
+# Block privacy policy from indexing
+Disallow: /anipong/privacy-policy/
+
 # Sitemap location
 Sitemap: https://dottreesoft.com/sitemap.xml
 
 # Allow all pages to be crawled
 Allow: /anipong/
 Allow: /anipong/notice/
-Allow: /anipong/privacy-policy/
 
 # Block common non-content files
 Disallow: *.DS_Store
